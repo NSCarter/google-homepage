@@ -1,0 +1,14 @@
+.logo {
+	position: absolute;
+	top: 200px;
+	right: 506.5px;
+}
+
+.searchBar {
+	position: absolute;
+	top: 297px;
+	right: 438.5px;
+	width: 408px;
+	background: transparent url("./images/voice.png") no-repeat center right;
+	background-size: 10px;
+}
