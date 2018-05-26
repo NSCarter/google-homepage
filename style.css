@@ -27,10 +27,28 @@
 	position: absolute;
 	top: 370px;
 	right: 647.5px;
+	height: 40px;
+	border-radius: 0px;
+	border: 1px solid white;
+}
+
+.search:hover {
+	color: black;
+	background-color: #f3efee;
+	border: 1px solid silver;
 }
 
 .lucky {
 	position: absolute;
 	top: 370px;
 	right: 491.5px;
+	height: 40px;
+	border-radius: 0px;
+	border: 1px solid white;
+}
+
+.lucky:hover {
+	color: black;
+	background-color: #f3efee;
+	border: 1px solid silver;
 }
