@@ -1,3 +1,45 @@
+a, a:visited {
+	position: absolute;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.images {
+	top: 30px;
+	right: 160px;
+}
+
+.gmail {
+	top: 30px;
+	right: 228px;
+}
+
+.options {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 25px;
+	right: 115px;
+}
+
+.signIn {
+	color: white;
+	background-color: #4d79ff;
+	font-family: sans-serif;
+	border: 1px solid white;
+	height: 35px;
+	width: 85px;
+	top: 20px;
+	right: 20px;
+	position: absolute;
+}
+
 .logo {
 	position: absolute;
 	top: 200px;
@@ -23,31 +65,23 @@
 	box-shadow: 2px 2px 2px 2px #f3efee;
 }
 
-.search {
+input[type="submit"] {
 	position: absolute;
 	top: 370px;
-	right: 647.5px;
 	height: 40px;
 	border-radius: 0px;
 	border: 1px solid white;
 }
 
-.search:hover {
-	color: black;
-	background-color: #f3efee;
-	border: 1px solid silver;
+.search {
+	right: 647.5px;
 }
 
 .lucky {
-	position: absolute;
-	top: 370px;
 	right: 491.5px;
-	height: 40px;
-	border-radius: 0px;
-	border: 1px solid white;
 }
 
-.lucky:hover {
+.search:hover, .lucky:hover {
 	color: black;
 	background-color: #f3efee;
 	border: 1px solid silver;
